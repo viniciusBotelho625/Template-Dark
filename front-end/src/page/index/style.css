@@ -1,3 +1,46 @@
-body {
+body,
+.menu {
     background-color: rgb(28, 36, 49);
+}
+
+
+footer{
+    background-color: rgb(11, 21, 35);
+}
+
+footer .icon{
+    background-color: rgb(11, 21, 35);
+    border-color: rgb(11, 21, 35);
+}
+
+li{
+    list-style-type: none;
+}
+
+.card-depoimentos {
+    background-color: rgb(32, 42, 60);
+    box-shadow:  rgb(42, 52, 71);
+}
+
+p, 
+h6{
+    color: white;
+}
+
+.input-text {
+    border-radius: 50px;
+}
+
+.img-onda {
+    position: absolute;
+    z-index: 1;
+}
+
+.col {
+    background-color: aquamarine;
+}
+
+.aspas {
+    position: absolute;
+    z-index: 1;
 }
