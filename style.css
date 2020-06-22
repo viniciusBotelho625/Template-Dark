@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+
 body,
 .menu {
-    background-color: rgb(28, 36, 49);
+    background-color: black;
 }
 
 
@@ -22,11 +25,17 @@ li{
     box-shadow:  rgb(42, 52, 71);
 }
 
-p, 
-h6{
+p{
     color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
 }
 
+h4 {
+    color: white;
+}
 .input-text {
     border-radius: 50px;
 }
@@ -43,4 +52,10 @@ h6{
 .aspas {
     position: absolute;
     z-index: 1;
+}
+
+.btn-iniciar {
+    border-radius: 20px;
+    padding: 8px 60px;
+    margin-top: 15px;
 }
