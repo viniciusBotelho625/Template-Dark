@@ -24,6 +24,13 @@ li{
     background-color: rgb(32, 42, 60);
     box-shadow:  rgb(42, 52, 71);
 }
+.caixa-depoimentos{
+    margin-bottom: 250px;
+}
+
+h6{
+    color: white;
+}
 
 p{
     color: white;
@@ -34,9 +41,12 @@ p{
     text-align: justify;
 }
 
-h4,
-h6 {
+h4{
     color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: justify;
 }
 
 .title {
@@ -48,6 +58,10 @@ h6 {
     text-align: center;
 }
 
+.link {
+    color: rgb(56, 56, 248);
+    text-decoration: underline;
+}
 .description {
     color: white;
     font-size: 16px;
@@ -57,6 +71,7 @@ h6 {
 }
 .input-text {
     border-radius: 50px;
+    padding: 20px 15px;
 }
 
 .img-onda {
@@ -75,9 +90,22 @@ h6 {
 
 .btn-iniciar {
     border-radius: 20px;
-    padding: 8px 60px;
+    padding: 8px 40px;
 }
 
 .caixa {
     margin-top: 80px;
+}
+.caixa-contato{
+    background-color: rgb(32, 42, 60);
+    margin-top: -180px;
+    box-shadow: rgb(10, 9, 9);
+    border-radius: 15px;
+    z-index: 1;
+    position: absolute;
+}
+
+.footer {
+    margin-top: 150px;
+    margin-bottom: -50px;
 }
